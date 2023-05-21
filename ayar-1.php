@@ -6,7 +6,7 @@ public $db,$sql,$hatirla;
 
 public function __construct(){
 
-    $this->db = new PDO('mysql:host=localhost;dbname=klasproje','root','flamenko86');
+    $this->db = new PDO('mysql:host=localhost;dbname=klasproje','root','');
   
     $this->db->exec("SET NAMES utf8");
 
